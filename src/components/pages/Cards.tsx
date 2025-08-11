@@ -37,7 +37,12 @@ const products: Product[] = [
 ];
 
 const Cards: FC = () => {
-  const [hoveredId, setHoveredId] = useState<number | null>(null);
+  const [activeId, setActiveId] = useState<number | null>(null);
+
+  const handleCardClick = (id: number) => {
+    setActiveId((prev) => (prev === id ? null : id));
+  };
+
   return (
     <section className={scss.Cards}>
       <div className="container">
@@ -46,12 +51,16 @@ const Cards: FC = () => {
             <div
               key={product.id}
               className={scss.card}
-              onMouseEnter={() => setHoveredId(product.id)}
-              onMouseLeave={() => setHoveredId(null)}
+              onClick={() => handleCardClick(product.id)}
+              // Убираем hover эффекты на мобилках (чтобы не конфликтовало)
+              onMouseEnter={() => null}
+              onMouseLeave={() => null}
             >
               <div className={scss.imgWrapper}>
                 <img src={product.img} alt={product.title} />
-                <button className={scss.quickViewBtn}>Quick View</button>
+                {activeId === product.id && (
+                  <button className={scss.quickViewBtn}>Quick View</button>
+                )}
               </div>
               <h3 className={scss.title}>{product.title}</h3>
               <p className={scss.price}>${product.price.toFixed(2)}</p>
