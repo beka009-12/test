@@ -89,3 +89,11 @@
     }
   }
 }
+
+img,
+button,
+a {
+  -webkit-tap-highlight-color: transparent; /* для iOS и Chrome на Android */
+  outline: none; /* убирает фокусный контур */
+  user-select: none; /* запретить выделение текста, если нужно */
+}
