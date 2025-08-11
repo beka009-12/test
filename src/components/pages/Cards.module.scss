@@ -13,6 +13,9 @@
     font-family: Arial, sans-serif;
     color: #666;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent; /* для iOS и Chrome на Android */
+    outline: none; /* убирает фокусный контур */
+    user-select: none; /* запретить выделение текста, если нужно */
 
     .imgWrapper {
       position: relative;
