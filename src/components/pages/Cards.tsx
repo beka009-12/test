@@ -33,6 +33,66 @@ const products: Product[] = [
       "https://png.pngtree.com/png-vector/20190702/ourlarge/pngtree-jeans-logo-wear-logo-thsirt-logo-j-logo-png-image_1532448.jpg",
     storeColor: "#0047AB",
   },
+  {
+    id: 3,
+    title: "Красовки Nike Air",
+    price: 120,
+    img: "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/b7d9211c-26e7-431a-ac24-b0540fb3c00f/AIR+FORCE+1+%2707.png",
+    storeName: "SportShop",
+    storeLogo:
+      "https://substackcdn.com/image/fetch/$s_!XD-J!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F67979fc2-9bc6-4ef1-a91a-9f8129c57645_1500x1500.jpeg",
+    storeColor: "#FF4500",
+  },
+  {
+    id: 4,
+    title: "Джинсы Levi's",
+    price: 80,
+    img: "https://lsco.scene7.com/is/image/lsco/005010162-dynamic1-pdp-lse?fmt=jpeg&qlt=70&resMode=sharp2&fit=crop,1&op_usm=0.6,0.6,8&wid=2000&hei=2500",
+    storeName: "DenimStore",
+    storeLogo:
+      "https://png.pngtree.com/png-vector/20190702/ourlarge/pngtree-jeans-logo-wear-logo-thsirt-logo-j-logo-png-image_1532448.jpg",
+    storeColor: "#0047AB",
+  },
+  {
+    id: 5,
+    title: "Красовки Nike Air",
+    price: 120,
+    img: "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/b7d9211c-26e7-431a-ac24-b0540fb3c00f/AIR+FORCE+1+%2707.png",
+    storeName: "SportShop",
+    storeLogo:
+      "https://substackcdn.com/image/fetch/$s_!XD-J!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F67979fc2-9bc6-4ef1-a91a-9f8129c57645_1500x1500.jpeg",
+    storeColor: "#FF4500",
+  },
+  {
+    id: 6,
+    title: "Джинсы Levi's",
+    price: 80,
+    img: "https://lsco.scene7.com/is/image/lsco/005010162-dynamic1-pdp-lse?fmt=jpeg&qlt=70&resMode=sharp2&fit=crop,1&op_usm=0.6,0.6,8&wid=2000&hei=2500",
+    storeName: "DenimStore",
+    storeLogo:
+      "https://png.pngtree.com/png-vector/20190702/ourlarge/pngtree-jeans-logo-wear-logo-thsirt-logo-j-logo-png-image_1532448.jpg",
+    storeColor: "#0047AB",
+  },
+  {
+    id: 7,
+    title: "Красовки Nike Air",
+    price: 120,
+    img: "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/b7d9211c-26e7-431a-ac24-b0540fb3c00f/AIR+FORCE+1+%2707.png",
+    storeName: "SportShop",
+    storeLogo:
+      "https://substackcdn.com/image/fetch/$s_!XD-J!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F67979fc2-9bc6-4ef1-a91a-9f8129c57645_1500x1500.jpeg",
+    storeColor: "#FF4500",
+  },
+  {
+    id: 8,
+    title: "Джинсы Levi's",
+    price: 80,
+    img: "https://lsco.scene7.com/is/image/lsco/005010162-dynamic1-pdp-lse?fmt=jpeg&qlt=70&resMode=sharp2&fit=crop,1&op_usm=0.6,0.6,8&wid=2000&hei=2500",
+    storeName: "DenimStore",
+    storeLogo:
+      "https://png.pngtree.com/png-vector/20190702/ourlarge/pngtree-jeans-logo-wear-logo-thsirt-logo-j-logo-png-image_1532448.jpg",
+    storeColor: "#0047AB",
+  },
   // другие товары...
 ];
 
